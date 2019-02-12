@@ -101,6 +101,12 @@ a .logo-img {
     margin-top: auto;
     margin-bottom: auto;
     /*! margin-left: 25px; */
+
+    /* ie styles */
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span:3;  
 }
 
 .sub-elements li {
