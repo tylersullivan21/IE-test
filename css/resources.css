@@ -217,6 +217,7 @@ ul li a {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
+    grid-row: 2;
     -ms-grid-columns: 1fr 10px 1fr;
     grid-template-columns: 1fr 10px 1fr;
     -ms-grid-rows: 1fr 10px 1fr;
