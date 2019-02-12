@@ -66,7 +66,7 @@ a .logo-img {
     -ms-grid-columns: 8% 1fr;
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 3;
+    -ms-grid-column: 2;
     -ms-grid-column-span: 1;
 }
 .element-children{
@@ -93,7 +93,7 @@ a .logo-img {
     -ms-grid-columns: 1fr 250px 8% 5fr;
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
+    -ms-grid-column: 4;
     -ms-grid-column-span:3;  
 }
 .sub-elements {
@@ -184,8 +184,14 @@ ul li a {
 #main{
     display: grid;
     grid-column: 2/3;
-    
     grid-template-columns: 10% 1fr 10%;
+
+    /* ie support */
+    display: -ms-grid;
+    -ms-grid-column: 2;
+    -ms-grid-column-span:1;
+    -ms-grid-columns: 10% 1fr 10%;
+
 }
 
 .image-grid{
@@ -193,6 +199,13 @@ ul li a {
     grid-column: 2/3;
     grid-template-columns: 1fr 10px 1fr;
     grid-template-rows: 1fr 10px 1fr; 
+
+    /*IE grid styles*/
+    display: -ms-grid;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    -ms-grid-columns: 1fr 10px 1fr;
+    -ms-grid-rows: 1fr 10px 1fr;
 }
 
 .title{
