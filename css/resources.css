@@ -187,7 +187,7 @@ ul li a {
 
     /* ie support */
     display: -ms-grid;
-    -ms-grid-rows: 1fr 1fr;
+    -ms-grid-rows: 10px 1fr;
     -ms-grid-column: 2;
     -ms-grid-column-span:1;
     -ms-grid-columns: 20% 1fr 20%;
