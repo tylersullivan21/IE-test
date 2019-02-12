@@ -93,7 +93,7 @@ a .logo-img {
     -ms-grid-columns: 1fr 250px 8% 5fr;
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 4;
+    -ms-grid-column: 1;
     -ms-grid-column-span:3;  
 }
 .sub-elements {
