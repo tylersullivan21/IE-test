@@ -183,14 +183,14 @@ ul li a {
 #main{
     display: grid;
     grid-column: 2/3;
-    grid-template-columns: 10% 1fr 10%;
+    grid-template-columns: 20% 1fr 20%;
 
     /* ie support */
     display: -ms-grid;
     -ms-grid-column: 2;
     -ms-grid-column-span:1;
     -ms-grid-columns: 20% 1fr 20%;
-    -ms-grid-rows: 1fr 1fr;
+
 }
 
 .image-grid{
@@ -202,7 +202,6 @@ ul li a {
     /*IE grid styles*/
     display: -ms-grid;
     -ms-grid-column: 2;
-    -ms-grid-row: 2;
     -ms-grid-column-span: 1;
     -ms-grid-columns: 1fr 5% 1fr;
     -ms-grid-rows: 1fr 5% 1fr;
@@ -212,7 +211,6 @@ ul li a {
     grid-column: 2/3;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
-    -ms-grid-row:1
 }
 
 .media{
