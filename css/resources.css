@@ -66,14 +66,14 @@ a .logo-img {
     -ms-grid-columns: 8% 1fr;
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 2;
+    -ms-grid-column: 3;
     -ms-grid-column-span: 1;
 }
 .element-children{
     grid-column: 2/3;
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 3;
+    -ms-grid-column: 2;
     -ms-grid-column-span: 1;
 }
 .hamburger-menu {
@@ -104,7 +104,7 @@ a .logo-img {
     /* ie styles */
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
+    -ms-grid-column: 4;
     -ms-grid-column-span:3;  
 }
 
