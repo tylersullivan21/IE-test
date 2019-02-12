@@ -184,7 +184,6 @@ ul li a {
     display: grid;
     grid-column: 2/3;
     grid-template-columns: 10% 1fr 10%;
-    grid-template: 
 
     /* ie support */
     display: -ms-grid;
